@@ -14,6 +14,6 @@ def train():
     print(f"Model Accuracy: {accuracy * 100:.2f}%")
     # Save the model artifact
     joblib.dump(clf, "model.pkl")
-    print("Model successfully saved as model.pkl")
+    print("Model successfully saved as model.pkl by ved")
 if __name__ == "__main__":
     train()
